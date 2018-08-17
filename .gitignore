@@ -16,7 +16,7 @@
 *.launch
 .settings/
 *.sublime-workspace
-
+ng5.iml
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
