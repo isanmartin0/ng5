@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
 
   login() {
     if (this.form.valid) {
-      this.auth.sendToken(this.form.value.email)
+      this.auth.sendToken(this.form.value.email);
       this.myRoute.navigate(["home"]);
     }
   }
